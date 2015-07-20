@@ -26,6 +26,16 @@ body {
     color: #fff;
 }
 
+.projects {
+    border-spacing: 10px;
+    border-collapse: separate;
+}
+
+.project-info {
+    background-color: grey;
+    padding: 10px;
+}
+
 .img-center {
     margin: 0 auto;
 }
