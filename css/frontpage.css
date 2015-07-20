@@ -45,3 +45,13 @@ body {
 footer {
     margin: 50px 0;
 }
+
+.thumbnails {
+    text-align:center;
+}
+
+.thumbnails > li {
+    display: inline-block;
+    *display:inline; /* ie7 fix */
+    float: none; /* this is the part that makes it work */
+}
