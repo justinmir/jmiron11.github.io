@@ -29,6 +29,8 @@ body {
 .projects {
     border-spacing: 10px;
     border-collapse: separate;
+    margin: 0 auto !important;
+    float: none !important;
 }
 
 .project-info {
