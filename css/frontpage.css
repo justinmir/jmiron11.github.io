@@ -42,8 +42,9 @@ body {
 }
 
 .profile-image{
-    height: 200px;
-    width: auto;
+    max-width:100%;
+    height:auto;
+    width:auto;
 }
 
 footer {
