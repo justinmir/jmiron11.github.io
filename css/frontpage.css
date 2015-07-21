@@ -1,10 +1,9 @@
 body {
-    padding-top: 50px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+    padding-top: 50px;
     max-width: 100%;
     overflow-x: hidden;
 }
 
-/* Header Image Background - Change the URL below to your image path (example: ../images/background.jpg) */
 
 .image-header {
     height: 300px;
