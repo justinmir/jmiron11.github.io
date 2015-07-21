@@ -22,28 +22,53 @@ body {
 /* Customize the text color and shadow color and to optimize text legibility. */
 
 .tagline {
-    text-shadow: 0 0 10px #000;
+    text-align: center;
+    text-shadow: 0 0 2px #000;
     color: #fff;
 }
 
-.projects {
-    border-spacing: 10px;
-    border-collapse: separate;
-    margin: 0 auto !important;
-    float: none !important;
-}
-
-.project-info {
-    background-color: grey;
-    padding: 10px;
+.profile-header{
+    padding-top: 40px;
+    display: table;
+    margin: auto;
 }
 
 .img-center {
     margin: 0 auto;
 }
 
+.self-image{
+    margin: 0 auto;
+}
+
+.profile-image{
+    height: 200px;
+    width: auto;
+}
+
 footer {
-    margin: 50px 0;
+    padding-left: 20px;
+    background-color: #222;
+    color: #9d9d9d;
+}
+
+.project-item {
+    margin-bottom: 25px;
+}
+
+.projects {
+    padding-top: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bot: 40px;
+}
+
+.projects-header{
+
+}
+
+.project-header-text{
+    color: #000;
 }
 
 .thumbnails {
