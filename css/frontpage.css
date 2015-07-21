@@ -1,9 +1,3 @@
-/*!
- * Start Bootstrap - Business Frontpage HTML Template (http://startbootstrap.com)
- * Code licensed under the Apache License v2.0.
- * For details, see http://www.apache.org/licenses/LICENSE-2.0.
- */
-
 body {
     padding-top: 50px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
 }
@@ -11,8 +5,9 @@ body {
 /* Header Image Background - Change the URL below to your image path (example: ../images/background.jpg) */
 
 .image-header {
-    height: 400px;
-    background: url('http://placehold.it/1920x400') center center no-repeat scroll;
+    height: 300px;
+    width: 100%;
+    background-color: teal;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -22,15 +17,22 @@ body {
 /* Customize the text color and shadow color and to optimize text legibility. */
 
 .tagline {
-    text-align: center;
     text-shadow: 0 0 2px #000;
     color: #fff;
 }
 
 .profile-header{
-    padding-top: 40px;
-    display: table;
-    margin: auto;
+    padding-left: 80px;
+    height:100%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.profile-image{
+    height:100%;
+    width:auto;
+    float:left;
+    margin-right: 50px;
 }
 
 .img-center {
@@ -39,12 +41,6 @@ body {
 
 .self-image{
     margin: 0 auto;
-}
-
-.profile-image{
-    max-width:100%;
-    height:auto;
-    width:auto;
 }
 
 footer {
