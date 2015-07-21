@@ -1,38 +1,41 @@
 body {
     padding-top: 50px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+    max-width: 100%;
+    overflow-x: hidden;
 }
 
 /* Header Image Background - Change the URL below to your image path (example: ../images/background.jpg) */
 
 .image-header {
     height: 300px;
+    padding-left:155px;
+    padding-right:155px;
     width: 100%;
     background-color: teal;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
-}
-
-/* Customize the text color and shadow color and to optimize text legibility. */
-
-.tagline {
-    text-shadow: 0 0 2px #000;
-    color: #fff;
 }
 
 .profile-header{
-    padding-left: 80px;
-    height:100%;
     padding-top: 30px;
     padding-bottom: 30px;
 }
 
 .profile-image{
-    height:100%;
-    width:auto;
-    float:left;
-    margin-right: 50px;
+    height:230px;
+    width:230px;
+    min-width:230px;    
+    min-height:230px;
+}
+
+.about-me{
+    color: #fff;
+    opacity: 0.93;
+    margin-left:50px;
+}
+
+.about-me-info{
+    color: #fff;
+    opacity: 0.93;
+    margin-left:50px;
 }
 
 .img-center {
