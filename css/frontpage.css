@@ -4,7 +4,6 @@ body {
     overflow-x: hidden;
 }
 
-
 .image-header {
     height: 300px;
     padding-left:155px;
@@ -21,7 +20,7 @@ body {
 .profile-image{
     height:230px;
     width:230px;
-    min-width:230px;    
+    min-width:230px;
     min-height:230px;
 }
 
