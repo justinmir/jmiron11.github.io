@@ -6,8 +6,8 @@ body {
 
 .image-header {
     height: 300px;
-    padding-left:155px;
-    padding-right:155px;
+    padding-left:170px;
+    padding-right:170px;
     width: 100%;
     background-color: teal;
 }
@@ -27,13 +27,13 @@ body {
 .about-me{
     color: #fff;
     opacity: 0.93;
-    margin-left:50px;
+    margin-left:70px;
 }
 
 .about-me-info{
     color: #fff;
     opacity: 0.93;
-    margin-left:50px;
+    margin-left:70px;
 }
 
 .img-center {
