@@ -16,8 +16,9 @@
 
 <body>
 
+
     <!-- Navigation -->
-    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
         <div class="container">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
@@ -31,7 +32,7 @@
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav">
+                <ul class="nav navbar-nav navbar-right">
                     <li>
                         <a href="./projects/">Projects</a>
                     </li>
@@ -42,7 +43,7 @@
                         <a href="https://www.linkedin.com/in/justinmiron">LinkedIn</a>
                     </li>
                      <li>
-                        <a href="JustinMironResume7-22-15.pdf">Resume</a>
+                        <a href="JustinMironResume8-17-15.pdf">Resume</a>
                     </li>
                 </ul>
             </div>
@@ -51,84 +52,24 @@
         <!-- /.container -->
     </nav>
 
-    <header class="image-header">
-        <table>
-            <tr>
-                <td class="profile-header">
-                        <img class="img-responsive img-circle profile-image" src="images/mudrun.jpg" alt="">
-                </td>
-                <td>
-                    <h2 class="about-me">About Me</h2>
-                    <p class="about-me-info">My name is Justin Miron. I am a junior at the Univeristy of Illinois in Urbana-Champaign. I will be graduating with a B.S. in Computer Engineering in May of 2017. I love what I am learning and am always looking for a new challenges in my field. My most recent challenge was a software engineering internship over the summer at ViaSat located in Carlsbad, CA, where I learned a lot about programming in a team and managing time to meet deadlines. I have also been working on a few side projects in my spare-time, a few of which can be seen below and on the projects page. Outside of my academics I love watching hockey (Let's go Red Wings), relaxing on my longboard, music, and exploring nature.</p>
-                </td>
-            </tr>
-        </table>
-    </header>
 
-    <!-- Projects Row -->
-    <div class="projects">
-        <div class="row">
-            <div class="col-md-8 projects-header">
-                <h2 class="project-header-text underline">Projects</h2>
-            </div>
-            <div class="col-md-4 projects-header">
-                <h2 class="project-header-text underline"> Current Projects </h2>
-            </div>
+    <div class="row">
+        <div class="col-md-4">
+            <img class="img-responsive main-image" src="images/mainpic.jpg" alt="">
         </div>
-        <div class="row">
-            <div class="col-md-4 project-item">
-                <a href="#">
-                    <img class="img-responsive" src="images/musicswap.png" alt="">
-                </a>
-                <h3>
-                    <a href="#">Music Swap</a>
-                </h3>
-                <h4>Java - Node.js - mongoDB - LastFM API</h4>
-                <p>A music artist sharing android app based around matching users with similar preferences. Allows the user to build a profile based on artists they like and allows them to either begin a chat or an exchange artist interface with matches. The android app communicates with the nodeJS server over websockets. The backend consists of a nodeJS server which communicates with a mongodb server.</p>
-            </div>
-            <div class="col-md-4 project-item">
-                <a href="#">
-                    <img class="img-responsive" src="images/upnext.png" alt="">
-                </a>
-                <h3>
-                    <a href="#">UpNext Group Jukebox</a>
-                </h3>
-                <h4>HTML - AngularJS - Node.js - Mopidy</h4>
-                <p>A collaborative spotify queue created at the corporate Viasat 2015 Hackathon. Geared at users within group settings to better share song choice. The queue reflects the votes of users on songs.  Built using a Mopidy server and libspotify. The backend utilized a NodeJS server that managed the queue and handled interactions with the Mopidy server.</p>
-            </div>
-            <div class="col-md-4 current-projects">
-                <h3>
-                    <a href="#">ATMega328p Bootloader</a>
-                    <small>AVR C</small>
-                </h3>
-                <p>A current project that will ease my ability to bootload AVR microcontrollers, specifically the ATMega328p and eventually the ATTiny. I have been tinkering with embedded systems being controlled by AVR microcontrollers and this project will ease prototyping.</p>
-                <hr>
-                <h3>
-                    <a href="#">The Event App</a>
-                    <small>Java - Node.js - mongoDB - Google Maps API </small>
-                </h3>
-                <p> A current group project involving managing events. My contribution is mostly on the back-end node.js server as well as managing the mongoDB database, as well as Google Map integration and API calls.
-                </p>
-                <hr>
-                <h3>
-                    <a href="#">DWM Status Bar</a>
-                    <small>C - Alsa API</small>
-                </h3>
-                <p> A status bar for the dwm window manager which displays neccessary information such as battery life, time, volume, and the status of my wireless connection. 
-                </p>
-                <hr>
-                <h3>
-                    <a href="#">Apartment Helper</a>
-                    <small>Java - Node.js - mongoDB - Google Calander API</small>
-                </h3>
-                <p> An app being worked on with a friend based around managing an apartment involving bills, messy roommates, and accountability amongst roommates. My contribution is split evenly between
-                server side and client side.
+        <div class="col-md-8">
+            <br>
+            <p class="about-me-info spacing"><b>Hi I'm Justin Miron. I am a junior at the Univeristy of Illinois in Urbana-Champaign I will be graduating with a B.S. in Computer Engineering in May of 2017. I am hoping this webpage gives people an idea of who I am and what I am passionate about! </b>
+            <br><br>
+            A little about my me, I spent most of my life hopping from country to country as I grew up. My childhood was spent in Saudia Arabia and Kuwait and my teenage years bouncing between Indonesia and China before ending up in the US. It has been a weird and wonderful ride, but I eventually ended up studying at UofI. Being raised on computers, I thought Computer Engineering would be a great fit. It definitely was. I love what I am learning and know this is what I always want to keep doing.
+            <br><br>
 
-
-
-            </div>
+            More recently, I was lucky enough to spend the summer in Carslbad, CA interning at ViaSat. It was a pretty amazing experience getting to travel across the country to work, see new sights, and work with plenty of new people. Additionally, I worked on side projects that I am pretty passionate about! A few of which are available to check out on the <a href="./projects/">projects</a> page as well as on my <a href="github.com/jmiron11">Github</a>.
+            <br><br>
+            There is also plenty about me outside of academics! I am an avid follower of hockey, specifically the (greatest) hockey team, the Detroit Red Wings. On top of that I love nature and exploring all that there is in the area, wherever I might be. For activities, I play badminton, rock climb, and I recently started playing volleyball over the summer. I love being active, but I also like being slightly unactive as well! I have been known to play copious amounts of video games when the mood is right, as well as binge rewatch my favorite TV shows.
+            <br><br>   
+            </p>
         </div>
-        <!-- /.row -->
     </div>
 
     <!-- Footer -->
