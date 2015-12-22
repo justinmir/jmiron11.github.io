@@ -19,47 +19,6 @@ p.spacing{
     line-height: 27px;
 }
 
-.top-buffer { margin-top:5px; }
-
-.row.no-pad {
-  margin-right:5px;
-  margin-left:0;
-}
-.row.no-pad > [class*='col-'] {
-  padding-right:5px;
-  padding-left:0;
-}
-
-
-.profile-header{
-    padding-top: 30px;
-    padding-bottom: 30px;
-}
-
-
-
-
-.main-image{
-    width: 60%;
-    margin: 14% auto;
-}
-
-.about-me{
-    color: #000;
-}
-
-.about-me-info{
-    color: #000;
-    margin: 50px 100px 50px 20px;
-}
-
-.img-center {
-    margin: 0 auto;
-}
-
-.self-image{
-    margin: 0 auto;
-}
 
 footer {
     position:absolute;
@@ -73,36 +32,14 @@ footer {
     border: 1px;
 }
 
-.project-item {
-    margin-bottom: 25px;
+.main-pic{
+    display: block;
+    margin-left: auto;
+    margin-right:auto;
+    max-height: 250px;
+    max-width: 250px;
 }
 
-.projects {
-    padding-left: 40px;
-    padding-right: 40px;
-    padding-bot: 40px;
+.i-am-very-small{
+    
 }
-
-.current-projects {
-    margin-bottom: 25px;
-}
-
-.projects-header{
-
-}
-
-.project-header-text{
-    color: #000;
-}
-
-.thumbnails {
-    text-align:center;
-}
-
-.thumbnails > li {
-    display: inline-block;
-    *display:inline; /* ie7 fix */
-    float: none; /* this is the part that makes it work */
-}
-
-h2.underline { padding-right:20px; border-bottom:1px solid #000; }
