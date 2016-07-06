@@ -37,6 +37,9 @@
                         <a href="#">Projects</a>
                     </li>
                     <li>
+                        <a href="https://goo.gl/photos/j8PSowp8XVHefviEA">Photos</a>
+                    </li>
+                    <li>
                         <a href="https://github.com/jmiron11">GitHub</a>
                     </li>
                     <li>
@@ -63,6 +66,29 @@
     <!-- Projects Row -->
     <div class="projects project-row">
 
+            <div class="row project-row" name="musicswap">
+            <div class="col-md-6">
+                <a href="#">
+                    <img class="img-responsive project-img" src="../images/game.png" alt="">
+                </a>
+            </div>
+
+             <div class="col-md-6 project-item">
+                <h2><b>The Game - Game</b></h2>
+                <h3>C++ - SDL Libraries</h3>
+                <p>
+                A beautiful game following the life of a bouncy ball on his path to find true love. (You might be thinking: "Bouncy balls can't love, they are bouncy balls." While probably true, I was unable to find a study about the capacity of bouncy balls to love, and so I cannot say anything for certain.)
+                </p>
+                <p>
+                The majority of the code lies in creating the interface with the renderer. The important things that had to be tracked were the geometry of the view window with respective to the level's video memory, the geometry of each object, as well as detecting collisions between objects. Once the level was created, I needed to consider the physics of the ball which consisted of its own velocity, acceleration, and reactions to different collisions. 
+                </p>
+                <p> Finally any stats that want to be displayed can be written to the screen, such as the number of deaths, or text can also be used to tell a beautiful story.
+                </p>
+            </div>
+        </div>
+
+         <hr>
+
         <div class="row project-row" name="upnext">
             <div class="col-md-6">
                 <img class="img-responsive project-img" src="../images/upnext.png" alt="">
@@ -74,13 +100,13 @@
                 A collaborative playlist queue with spotify integration created at the corporate Viasat 2015 Hackathon.
                 </p>
                 <p>
-                The jukebox works based on a system of voting for tracks within a shared playlist. This is geared at music choice within group settings. The order of the next played queue is based off of the users' votes on songs.
+                The jukebox works based on a system of voting for tracks within a shared playlist. This is geared at music choice within group settings. The order of the next played song in the queue is based off of the users' votes on songs.
                 </p>
                 <p>
-                The app consisted of a front-end consisted of a web app built with HTML and AngularJS that interacted with the back-end node.JS server that handled interactions with the external Mopidy server.
+                The app consisted of a front-end built with HTML and AngularJS and a back-end node.JS server that handled interactions with an external Mopidy server.
                 </p>
                 <p>
-                My contribution was the back-end Node.JS server. The server handled input from the clients through HTTP requests and used that information to interact with the music server as well as manage the song queue.
+                My contribution to the project was the back-end Node.JS server. The server handled and processed requests to interact with the music server as well as manage the song queue.
                 </p>
             </div>
         </div>
@@ -98,64 +124,33 @@
                 <h2><b>Music Swap</b></h2>
                 <h3>Java - NodeJS - mongoDB</h3>
                 <p>
-                A music artist sharing android app based around matching users with similar preferences. Users that had similar tastes are able to recommend artists to one another.
+                A artist-sharing (Music) android app based around matching users with similar preferences. Users that had similar musical tastes are able to recommend artists to one another. The reason behind this was that the reasons that we love artists aren't always due to the musical style but rather meaning behind songs. In this case, users can be the best way to find new music.
                 </p>
                 <p>
-                The front-end of the app was built in Android Studio and allowed the user to set up a profile as well as send requests to the server to find matches based on the profile. The front-end used the LastFM API to request and store album and artist art to enhance the visuals of the app. A websocket wrapper for Java was also used to communicate with the Node.JS back-end.
+                The front-end was an Android app that allowed the user to set up a profile as well as send requests to the server to find matches based on the profile. The front-end used the LastFM API to request and store album and artist art to enhance the visuals of the app. A websocket wrapper for Java was also used to communicate with the Node.JS back-end.
                 </p>
                 <p>
-                The Node.JS server's main purpose was to manage the mongoDB server. Through repeated queries, the node.JS server would two clients with an artist match and send a reply back to the clients as well as store the information to keep the two connected. Following a connection clients were able to send artist names to eachother to share music tastes.
+                The Node.JS server's main purpose was to manage the mongoDB server. The node.JS server would find two clients who had matching artists and send a reply back to the clients that they were connected. Following a connection clients were able to send artist names to eachother to share music tastes.
                 </p>
             </div>
         </div>
 
         <hr> 
 
-        <div class="row project-row" name="musicswap">
-            <div class="col-md-6">
-                <a href="#">
-                    <img class="img-responsive project-img" src="../images/game.png" alt="">
-                </a>
-            </div>
-
-             <div class="col-md-6 project-item">
-                <h2><b>The Game - Game</b></h2>
-                <h3>C++ - SDL Libraries</h3>
-                <p>
-                A beautiful story telling game following the life of a bouncy ball on his path to find true love.
-                </p>
-                <p>
-                The majority of the code lies in creating the interface with the renderer. The important things that had to be tracked were the geometry of the view window with respective to the level's video memory, the geometry of each object, as well as detecting collisions between objects. Once the level was created, I needed to consider the physics of the ball which consisted of its own velocity, acceleration, and reactions to different collisions. 
-                </p>
-                <p> Finally any stats that want to be displayed can be written to the screen, such as the number of deaths, or text can also be used to tell a beautiful story.
-                </p>
-            </div>
-        </div>
-
-         <hr>
-
-        <div class="row">
-        <div class="col-lg-12">
-            <h2>Projects
-                <small>In Progress</small>
-            </h2>
-        </div>
-        </div>
-
-       <div class="row project-row" name="eventapp">
+       <div class="row project-row" name="window-manager">
 
              <div class="col-md-6 project-item">
                 <h2><b>Koala Window Manager</b></h2>
                 <h3>C - XCB Libraries</h3>
                 <br>
                 <p>
-                A dynamic tiling window manager for X11 being worked on with a partner.
+                A dynamic tiling window manager for X11.
                 </p>
                 <p>
-                The window manager currently supports handling keybindings for window managment, redirection of requests to the window manager, as well as handling those requests including mapping of windows.
+                The window manager currently supports handling keybindings for window managment, redirection of requests to the window manager, as well as handling those requests including mapping of windows. Tiling was in the works before lack of documentation and life brutally killed the project. 
                 </p>
                 <p>
-                We are currently working on tiling algorithms as well as multiple desktop support.
+                
                 </p>
             </div>
         </div>
