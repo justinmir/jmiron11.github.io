@@ -31,9 +31,9 @@
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
-                    <li>
+ <!--                    <li>
                         <a href="./projects/">Projects</a>
-                    </li>
+                    </li> -->
                     <li>
                         <a href="https://goo.gl/photos/j8PSowp8XVHefviEA">Photos</a>
                     </li>
@@ -52,20 +52,29 @@
         </div>
         <!-- /.container -->
     </nav>
-
+ 
 <body>
-    <div class="container height-centered">
-        <div class="row row-centered">
-            <img class="img-responsive main-pic img-rounded" src="images/mainpic.jpg">
-            <h1>Justin Miron</h1>
-            <p style="font-size:130%;">I'm a Senior in Computer Engineering at the University of Illinois. I plan on furthering my goal of being a student forever by working towards a PhD after my senior year. My research interests include distributed systems, networks, and high performance computing.</p><p style="font-size:130%;">Outside of acadamia, I love nature, climbing, taking mediocre pictures, and most importantly the Detroit Red Wings.</p>
+    <div class="background"></div>
+    <div class="row flex-container">
+        <div class="container-for-container">
+            <div class="flex-col-right">
+                <img class="img-responsive mainpic" src="images/mainpic.jpg">
+            </div>
+            <div class="flex-col-left">
+                <div class="the-name">Justin Miron</div>
+                <p class="the-paragraph"></p>
+                <p class="the-paragraph">Hey! I'm Justin.</p>
+                <p class="the-paragraph">I'm soon to be a first year PhD student at Cornell studying Computer Science. </p>
+                <p class="the-paragraph"> I think distributed systems, computer networks, and operating systems are all pretty sweet so I'm aiming to do research in those areas.</p>
+                <p class="the-paragraph"> I'll be using this as a spot to share pretty much anything, whether it be albums of bands I'm loving, books, photos, maybe even highlight some research. Feel free to look around! </p>
+                </div>
+            </div>
         </div>
     </div>
-
+    <!-- </div> -->
     <!-- scripts -->
     <script src="js/jquery.js"></script>
     <script src="js/bootstrap.min.js"></script>
-
 </body>
 
 </html>

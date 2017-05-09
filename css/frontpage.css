@@ -1,5 +1,4 @@
 body {
-    padding-top: 50px;
     max-width: 100%;
     height:100%;
     position:relative;
@@ -30,16 +29,4 @@ footer {
     border-color: #e7e7e7;
     color: #333;
     border: 1px;
-}
-
-.main-pic{
-    display: block;
-    margin-left: auto;
-    margin-right:auto;
-    max-height: 250px;
-    max-width: 250px;
-}
-
-.i-am-very-small{
-    
 }
