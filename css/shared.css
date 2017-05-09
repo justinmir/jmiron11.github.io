@@ -95,6 +95,30 @@
 	font-weight:700;
 }
 
+/*.mad-lyriks{
+	padding-top: 40px;
+	display: flex;
+	flex-direction: column;
+}*/
+
+.lyric{
+	text-align: left;
+	font-size: 1.7em;
+	color: #ffffff;
+	font-family: 'Roboto Slab', serif;
+	font-weight:400;
+	padding-bottom: 20px;
+}
+
+.potato{
+	text-align: left;
+	font-size: 3em;
+	color: #ffffff;
+	font-family: 'Roboto Slab', serif;
+	font-weight:700;
+}
+
+
 .section-description{
 	text-align: left;
 	font-size: 1.7em;
