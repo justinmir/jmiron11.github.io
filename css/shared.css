@@ -1,11 +1,20 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto+Slab:400,700');
 
 .navbar-nav > li > a, .navbar-brand {
-    padding-top: 6px !important;
+    padding-top: 0px !important;
     padding-bottom:0 !important;
-    height: 32px;
+    line-height: 50px;
+    height: 50px;
+    font-family: 'Roboto Slab', serif;
+    font-size: 1.6em;
+    font-weight:400;
 }
-.navbar {min-height:32px !important;}
+
+.navbar {min-height:50px !important;}
+
+.active-page{
+	background-color: #d9d9d9;
+}
 
 .background {
   background-image: url("../images/penguin.jpg");
@@ -19,7 +28,7 @@
 
 .flex-container {
   position: relative;
-  opacity: 0.95;
+  opacity: 0.92;
   height: 100%;
   width: 100%;
   display: flex;
@@ -29,7 +38,10 @@
 }
 
 .container-for-container {
-	padding: 30px;
+	padding-left:30px;
+	padding-right:30px;
+	padding-bottom:35px;
+	padding-top:35px;
 	background-color: #f8eee7;
 	display: flex;
 	flex-direction: row;
@@ -109,6 +121,39 @@
 
 
 /* Album stuff */
+
+.album {
+	position: relative;
+	height:200px;
+	width:200px;
+	display: table;
+	padding-right: 10px;
+}
+
+.album-name-and-artist{
+	display: flex;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	padding: 10%;
+	text-align: center;
+	font-family: 'Roboto Slab', serif;
+	font-size: large;
+	font-weight:400;
+	background: #233237;
+	color: #fff;
+	visibility: hidden;
+	opacity: 0;
+	height:200px;
+	width: 200px;
+	align-items: center;
+	justify-content: center;
+
+	transition: opacity .3s, visibility .3s;
+}
+
 .album-section{
 	background-color: #76323f;
 	padding: 2%;
@@ -121,14 +166,16 @@
 	flex-direction: row;
 }
 
-/* Style the Image Used to Trigger the Modal */
 .album-img {
     border-radius: 5px;
     cursor: pointer;
     transition: 0.3s;
 }
 
-.album-img:hover {opacity: 0.7;}
+.album:hover .album-name-and-artist{
+	visibility: visible;
+	opacity: 0.7;
+}
 
 /* The Modal (background) */
 .modal {
