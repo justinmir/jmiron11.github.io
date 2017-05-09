@@ -49,14 +49,23 @@
         </div>
         <!-- /.container -->
     </nav>
- 
+
+
 <body>
     <div class="background"></div>
     <div class="row flex-container-me">
         <div class="container-for-me">
             <div class="album-section">
                 <div class="section-header">Music</div>
-                <div class="section-description">I love music. These are a small subset of the albums that have made a difference to me. I made these do sweet things when you click them.</div>
+                <div class="section-description">I love music. These are some of the album's I've loved over the past few years.</div>
+                <div class="album-flex"> 
+                    <img id="ruth-nanagrizol-img" class="album-img" src="../images/albums/ruth-nanagrizol.jpg" alt="Ruth, Nana Grizol" width="200" height="200">
+                    <div id="ruth-nanagrizol-modal" class="modal album">
+                        <span class="close" onclick="document.getElementById('ruth-nanagrizol-modal').style.display='none'">&times;</span>
+                         <img class="modal-content album-img" src="../images/albums/ruth-nanagrizol.jpg">
+                    </div>
+
+                </div>
             </div>
         </div>
     </div>
@@ -64,6 +73,7 @@
     <!-- scripts -->
     <script src="../js/jquery.js"></script>
     <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/me.js"></script>
 </body>
 
 </html>
