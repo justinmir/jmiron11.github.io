@@ -3,7 +3,6 @@
 
 <head>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
@@ -16,60 +15,65 @@
 </head>
 
  <!-- Navigation -->
-    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
-        <div class="container">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand" href="../">Justin Miron</a>
-            </div>
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right">
-                    <li>
-                        <a href="./" class="active-page">Home</a>
-                    </li>
-                    <li>
-                        <a href="./me/">Me</a>
-                    </li>
-                    <li>
-                        <a href="https://goo.gl/photos/j8PSowp8XVHefviEA">Photos</a>
-                    </li>
-                    <li>
-                        <a href="https://www.linkedin.com/in/justinmiron">LinkedIn</a>
-                    </li>
-                     <li>
-                        <a href="../CV-JustinMiron.pdf">CV</a> 
-                    </li>
-                </ul>
-            </div>
-            <!-- /.navbar-collapse -->
-        </div>
-        <!-- /.container -->
-    </nav>
- 
 <body>
-    <div class="background"></div> 
-    <div class="row flex-container">
-        <div class="container-for-container">
-            <div class="col-sm-6 flex-col-left">
-                <img class="img-responsive mainpic" src="images/mainpic.jpg">
-            </div>
-            <div class="col-sm-6 flex-col-right">
-                <div class="the-name">Justin Miron</div>
-                <p class="the-paragraph"></p>
-                <p class="the-paragraph">Hey! I'm Justin.</p>
-                <p class="the-paragraph">I'm a PhD student at Cornell University. My research interests include distributed systems, networking, and operating systems.</p>
-                <p class="the-paragraph">My recent work deals with resource disaggregation, a rapidly growing datacenter design where datacenter resources are split into independant pools of resources interconnected over the network.</p>
-                <p class="the-paragraph">Other than the few almost-professional lines above, I'm using this page to mess around, feel free to browse.</p>
+    <div class="sidebar-sidebar col-sm-3">
+        <div class="sidebar-img">
+            <img class="img-responsive mainpic" src="images/mainpic.jpg">
+        </div>
+        <div class="sidebar-name">Justin Miron</div>
+                        <!-- SIDEBAR MENU -->
+        <div class="sidebar-usermenu">
+            <ul class="nav">
+                <li class="sidebar-usermenu-item">
+                    <a href="#">
+                    About Me</a>
+                </li>
+                <li class="sidebar-usermenu-item">
+                    <a href="#">
+                    Research Interests </a>
+                </li>
+                <li class="sidebar-usermenu-item">
+                    <a href="#">
+                    Current Projects</a>
+                </li>
+            </ul>
+        </div>
+        <!-- END MENU -->
+    </div>
+    <div class="col-md-6 page">
+        <div class="row text">
+            <h2 class="section-title">About Me</h2>
+            <hr>
+            <p class="aboutme"> I am currently a first year Ph.D. student at Cornell University being advised by Professor <a href="http://www.cs.cornell.edu/~ragarwal/index.html">Rachit Agarwal</a>.</p>
+
+            <p class="aboutme">My current research interests include <b>distributed systems, datacenter networking and peer-to-peer systems</b>.
+
+            <p class="aboutme">My current research focuses on understanding the feasability requirements of <b>resource disaggregated datacenters</b> and constructing systems that can yield their benefits. To that effect, I am working on <b>building an end-to-end storage management layer</b> for disaggregated storage.</p>
+        </div>
+        <div class="row">
+            <h2 class="section-title">Current Projects</h2>
+            <hr>
+        </div>
+
+        <div class="row text">
+            <h2 class="section-title">Experience</h2>
+            <hr>
+            <div class="section-experience">
+                <div class="experience">
+                    <div class="experience-img"><img class="img-responsive" src="images/logos/msft.png"></div>
+                    <div class="experience-text"><p><b>Software Engineer Intern, Microsoft</b><br>Aliso Viejo, CA - Summer 2017</p></div>
+                </div>
+                <div class="experience">
+                    <div class="experience-img"><img class="img-responsive" src="images/logos/charmworks.png"></div>
+                    <div class="experience-text"><p><b>Software Engineer, Charmworks</b><br>Champaign, IL - Jan 2017 - May 2017</p></div>
+                </div>
+                <div class="experience">
+                    <div class="experience-img"><img class="img-responsive" src="images/logos/goog.png"></div>
+                    <div class="experience-text"><p><b>Software Engineer Intern, Google</b><br>Seattle, WA - Summer 2016</p></div>
                 </div>
             </div>
         </div>
+
     </div>
     <!-- </div> -->
     <!-- scripts -->
