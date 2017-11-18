@@ -55,8 +55,9 @@ p.spacing{
 }
 
 .sidebar-sidebar {
-  padding: 60px 0 10px 0;
+  padding: 60px 0 0px 0;
   background: #1c2127;
+  margin-bottom: 100px;
   height:100%;
   float:left;
   -webkit-box-shadow: 4px 0 5px 0px #888;
