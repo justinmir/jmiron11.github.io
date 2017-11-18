@@ -4,6 +4,7 @@ body {
     position:relative;
     overflow-x: hidden;
     background: #d7ded7;
+    font-family: 'Roboto', sans-serif;
 }
 
 html{
@@ -48,22 +49,25 @@ p.spacing{
 }
 
 .sidebar-usermenu-item {
-  background-color: #233237;
+  background-color: #1c2127;
   color: #5b9bd1;
   outline: 0.01em solid #93a3b5;
 }
 
 .sidebar-sidebar {
   padding: 60px 0 10px 0;
-  background: #18121e;
+  background: #1c2127;
   height:100%;
+  float:left;
+  -webkit-box-shadow: 4px 0 5px 0px #888;
+          box-shadow: 4px 0 5px 0px #888;
 }
 
 .sidebar-img img {
   float: none;
   margin: 0 auto;
-  width: 70%;
-  height: 70%;
+  width: 80%;
+  height: 80%;
   -webkit-border-radius: 50% !important;
   -moz-border-radius: 50% !important;
   border-radius: 50% !important;
@@ -73,13 +77,41 @@ p.spacing{
   text-align: center;
   margin-top: 20px;
   color: #ffffff;
-  font-size: 30px;
-  font-weight: 400;
-  margin-bottom: 7px;
+  font-size: 35px;
+  font-weight: 300;
+  margin-bottom: 2px;
+}
+
+.sidebar-title{
+  text-align: center;
+  color:#fff;
+  font-size:20px;
+  font-weight: 300;
+}
+
+.sidebar-uni{
+  text-align: center;
+  color:#fff;
+  font-size:20px;
+  font-weight:300;
+  font-style: italic;
 }
 
 .page {
-  padding: 20px 0 0 40px;
+  /*padding: 20px 0 0 40px;*/
+  display: flex;
+  align-items:center;
+  justify-content:center;
+   -webkit-flex-direction: column;
+   flex-direction: column;
+   padding: 20px 0 0 0;
+}
+
+.panel{
+  background-color: #fff;
+  width:95%;
+  padding: 20px;
+  border-radius: 2px;
 }
 
 .aboutme {
@@ -101,9 +133,9 @@ p.spacing{
 
 .experience{
   margin: 5px;
-  height: 80px;
-  width: 50%;
-  background-color: #233237;
+  height: 60px;
+  width: 100%;
+  background-color: #1c2127;
    display: -webkit-flex;
    display: flex;
    -webkit-flex-direction: row;
@@ -111,14 +143,26 @@ p.spacing{
    -webkit-justify-content: flex-start;
    justify-content: flex-start;
   align-items:center;
+  box-shadow: 5px 5px 5px #fff;
 }
 
 .experience-text{
   color: #fff;
+  font-size: 12px;
   padding: 9px 0 0 0;
 }
 
 .experience-img{
-  width: 80px;
-  padding: 16px 16px 16px 16px;
+  width: 70px;
+  padding: 16px;
+}
+
+.sidebar-icons {
+  padding: 15px 0 0 0;
+  text-align: center;
+}
+
+.sidebar-icon{
+  color: #fff;
+  padding: 6px;
 }
