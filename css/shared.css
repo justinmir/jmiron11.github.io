@@ -65,39 +65,14 @@ p.spacing{
   position: fixed;
   overflow-y: 0;
   z-index: 1000;
-  width: 250px;
-  transition: all 0.4s ease 0s;
 }
 
 .page-wrapper {
   padding-left: 250px;
-  transition: all 0.4s ease 0s;
 }
 
 .page-content {
   width: 100%;
-}
-
-@media (max-width:767px) {
-    .page-wrapper {
-      padding-left: 0;
-    }
-
-    .sidebar-sidebar {
-      left: 0;
-    }
-
-    .page-wrapper.active {
-      position: relative;
-      left: 250px;
-    }
-
-    .page-wrapper.active .sidebar-sidebar {
-      position:relative;
-      left: 250px;
-      width: 250px;
-      transition: all 0.4s ease 0s;
-    }
 }
 
 .sidebar-img img {
@@ -124,6 +99,14 @@ p.spacing{
   color:#fff;
   font-size:20px;
   font-weight: 300;
+}
+
+.sidebar-location{
+  text-align:center;
+  color:#fff;
+  font-size:16px;
+  font-weight:300;
+  margin-top:5px;
 }
 
 .sidebar-uni{
