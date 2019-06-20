@@ -9,7 +9,6 @@ body {
 html{
   height:100%;
   position:relative;
-  scroll-behavior: smooth;
 }
 
 .page-content {
@@ -114,7 +113,7 @@ html{
 }
 
 .work-page-left {
-  background-color: #a8b5ad;
+  background-color: #b6c4bd;
   height:100%;
   display: flex;
   align-items: center;
