@@ -93,8 +93,23 @@ html{
   width: 100vw;
 }
 
+.companies{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content:center;
+  -webkit-flex-direction: row;
+  flex-direction: row;
+}
+
+.company-logo{
+  width:6%;
+  max-height:85%;
+  margin: 0% 1% 0% 1%
+}
+
 .work-page-left {
-  background-color: #a0afa6;
+  background-color: #bed1c5;
   height:100%;
   display: flex;
   align-items: center;
