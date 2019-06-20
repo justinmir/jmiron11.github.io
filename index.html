@@ -31,7 +31,7 @@
                     </div>
                     <div class="row seperatehr"></div>
                     <div class="row">
-                        <p class="links">About / Work</p>
+                        <p class="links"><a class="internal-link" href="#about">About</a> | <a class="internal-link" href="#work-history">Work</a></p>
                    </div>
                    <div class="spacing2"></div>
                    <div class="icons">
@@ -44,10 +44,14 @@
                 </div>
             </div>
             <div class="row about-page">
+                <a id="about"></a>
                 <div class="col-md-6 col-sm-6 col-xs-6 about-page-left">
                     <img class="img-responsive selfpic" src="images/selfpic.png">
                     <div class="about-spacing-left"></div>
                     <p class="about-text-left">About</p>
+                    <div class="row">
+                        <p class="links2"><a class="internal-link" href="#about">About</a> | <a class="internal-link" href="#work-history">Work</a></p>
+                   </div>
                 </div>
                 <div class="col-md-6 col-sm-6 col-xs-6 about-page-right">
                     <p class="about-page-text" style="font-weight:700">Hi. I'm Justin, a software engineer working out of Boston.</p>
@@ -68,15 +72,19 @@
                 <div class="col-md-6 col-sm-6 col-xs-6 work-page-left">
                     <p class="about-text-left">Work History</p>
                     <div class="companies">
-                    <img class="img-responsive company-logo" src="images/logos/goog.png">
-                    <img class="img-responsive company-logo" src="images/logos/bloXroute-Labs.jpg">
-                    <img class="img-responsive company-logo" src="images/logos/cornell.png">
-                    <img class="img-responsive company-logo" src="images/logos/msft.png">
-                    <img class="img-responsive company-logo" src="images/logos/charmworks.png">
-                    <img class="img-responsive company-logo" src="images/logos/illinois.jpg">
+                        <img class="img-responsive company-logo" src="images/logos/goog.png">
+                        <img class="img-responsive company-logo" src="images/logos/bloXroute-Labs.jpg">
+                        <img class="img-responsive company-logo" src="images/logos/cornell.png">
+                        <img class="img-responsive company-logo" src="images/logos/msft.png">
+                        <img class="img-responsive company-logo" src="images/logos/charmworks.png">
+                        <img class="img-responsive company-logo" src="images/logos/illinois.jpg">
                     </div>
+                    <div class="row flex-end">
+                        <p class="links2"><a class="internal-link" href="#about">About</a> | <a class="internal-link" href="#work-history">Work</a></p>
+                   </div>
                 </div>
                 <div class="col-md-6 col-sm-6 col-xs-6 work-page-right">
+                    <a id="work-history"></a>
                    <ul class="list-unstyled exp">
                         <div class="exp-title">
                             <span class="exp-title-title"><b>BloXroute Labs</b> &middot; Research Engineer</span>
@@ -142,6 +150,32 @@
     <script src="js/jquery.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="https://use.fontawesome.com/7d6346c2db.js"></script>
+    <script>
+    $(document).ready(function(){
+      // Add smooth scrolling to all links
+      $("a").on('click', function(event) {
+
+        // Make sure this.hash has a value before overriding default behavior
+        if (this.hash !== "") {
+          // Prevent default anchor click behavior
+          event.preventDefault();
+
+          // Store hash
+          var hash = this.hash;
+
+          // Using jQuery's animate() method to add smooth page scroll
+          // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+          $('html, body').animate({
+            scrollTop: $(hash).offset().top
+          }, 800, function(){
+       
+            // Add hash (#) to URL when done scrolling (default click behavior)
+            window.location.hash = hash;
+          });
+        } // End if
+      });
+    });
+    </script>
 </body>
 
 </html>
