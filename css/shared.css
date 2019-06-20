@@ -273,7 +273,7 @@ html{
   justify-content:center;
   -webkit-flex-direction: row;
   flex-direction: row;
-  width: 50%;
+  width: 80%;
 }
 
 .spotify-information {
