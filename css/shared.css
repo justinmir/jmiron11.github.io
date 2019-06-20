@@ -109,7 +109,7 @@ html{
 }
 
 .work-page-left {
-  background-color: #bed1c5;
+  background-color: #a8b5ad;
   height:100%;
   display: flex;
   align-items: center;
@@ -120,7 +120,7 @@ html{
 }
 
 .work-page-right {
-  background-color: #3b5666;
+  background-color: #473e39;
   height: 100%;
   padding: 2%;
 }
