@@ -49,12 +49,12 @@ html{
   border-style: solid;
   border-width: 1px 0px 1px 0px;
   border-color: #fff;
-  height: 60vh;
+  /*height: 60vh;*/
   width: 100vw;
 }
 
 .about-page-left {
-  background-color: #331e36;
+  background-color: #332835;
   height:100%;
   display: flex;
   align-items: center;
@@ -68,7 +68,10 @@ html{
   background-color: #cdd5d1;
   height: 100%;
   padding: 2%;
-  font-size:18px;
+}
+
+.about-page-text {
+  font-size:16px;
   font-family: 'Roboto', sans-serif;
 }
 
@@ -80,6 +83,99 @@ html{
   font-size:45px;
   font-family: 'Alegreya Sans SC', sans-serif;
   color: #fff;
+}
+
+.work-history {
+  border-style: solid;
+  border-width: 1px 0px 1px 0px;
+  border-color: #fff;
+  /*height: 120vh;*/
+  width: 100vw;
+}
+
+.work-page-left {
+  background-color: #a0afa6;
+  height:100%;
+  display: flex;
+  align-items: center;
+  justify-content:center;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+  padding: 1%
+}
+
+.work-page-right {
+  background-color: #3b5666;
+  height: 100%;
+  padding: 2%;
+}
+
+.experience{
+  margin: 5px;
+  height: 60px;
+  width: 100%;
+  background-color: #1c2127;
+   display: -webkit-flex;
+   display: flex;
+   -webkit-flex-direction: row;
+   flex-direction: row;
+   -webkit-justify-content: flex-start;
+   justify-content: flex-start;
+  align-items:center;
+  box-shadow: 5px 5px 5px #fff;
+}
+
+
+.experience-panel{
+  background-color:#a1e02c;
+  width:100%;
+}
+
+.exp-title
+{
+  position: relative;
+  left: -10px;
+  top: 15px;
+  border-radius: 0px;
+  padding: 0;
+  color: white;
+  height: 20px;
+}
+
+.exp-title-logo {
+  height:100%;
+}
+
+.exp-logo {
+  height:100%;
+}
+
+.exp-title-title {
+  background: #3c7a89;
+  padding: 4px 6px 4px 6px;
+}
+
+.exp-title-dates {
+  background: #2e4756;
+  padding: 4px 6px 4px 6px;
+  box-shadow: -3px 0px 7px -3px #2e4756;
+  margin: -4px !important;
+}
+
+.exp-desc{
+  background-color: #cdd5d1;
+  padding: 35px 20px 12px 40px;
+  box-shadow: 0px 3px 3px -3px #2e4756;
+  display:block;
+  width: 100%;
+}
+
+.exp{
+  width: 100%;
+}
+
+.work-list {
+  margin-bottom: 7px;
 }
 
 .spacing {

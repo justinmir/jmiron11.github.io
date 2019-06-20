@@ -12,7 +12,7 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/shared.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans+SC:500&display=swap" rel="stylesheet"> 
-    <link href="https://fonts.googleapis.com/css?family=Roboto:700&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet"> 
 </head>
 
  <!-- Navigation -->
@@ -47,12 +47,88 @@
                 <div class="col-md-6 col-sm-6 col-xs-6 about-page-left">
                     <img class="img-responsive selfpic" src="images/selfpic.png">
                     <div class="about-spacing-left"></div>
-                    <p class="about-text-left">About<p>
+                    <p class="about-text-left">About</p>
                 </div>
                 <div class="col-md-6 col-sm-6 col-xs-6 about-page-right">
-                    Hi. I'm Justin.
+                    <p class="about-page-text" style="font-weight:700">Hi. I'm Justin, a software engineer working out of Boston.</p>
+                    <p class="about-page-text">I think distributed systems and datacenter network problems are pretty neat. </p>
+
+                    <p class="about-page-text">A few things I've recently had the pleasure of working on:</p>
+                    <ul>
+                        <li class="work-list"><b>Understanding and building systems for emerging datacenter networks and architectures. </b> For example, my work on resource disaggregation and bandwidth allocation in Google's inter-datacenter WAN, BwE.</li>
+
+                        <li class="work-list"><b>Building tools to better understand behavior in blockchain architectures. </b> For example, my work with BloXroute to build a blockchain measurement infrastructure that concurrently tracks data movement across thousands of peers.</li>
+
+                        <li class="work-list"><b>Tackling the network latency bottleneck when moving high performance computing applications to the cloud.</b> For example, my work with the UIUC Parallel Programming Lab and Charmworks on reducing latency through duplicating work.</li>
+                    </ul>
                 </div>
             </div>
+
+            <div class="row work-history">
+                <div class="col-md-6 col-sm-6 col-xs-6 work-page-left">
+                    <p class="about-text-left">Work History</p>
+                </div>
+                <div class="col-md-6 col-sm-6 col-xs-6 work-page-right">
+                   <ul class="list-unstyled exp">
+                        <div class="exp-title">
+                            <span class="exp-title-title"><b>BloXroute Labs</b> &middot; Research Engineer</span>
+                            <span class="exp-title-dates">December 2018 - June 2019</span>
+                        </div>
+                        <div class="exp-desc">
+                         <p><b>Built a blockchain measurement infrastructure</b> from the ground up to measure data propagation through the underlying peer-to-peer network. This required concurrently processing tens of thousands of messages from thousands of peers every second. <b>Designed and facilitated experiments</b> to highlight BloXroute performance benefits and identify areas of improvement for the dev team.</p>
+                        </div>
+                    </ul>
+                   <ul class="list-unstyled exp">
+                        <div class="exp-title">
+                            <span class="exp-title-title"><b>Google</b> &middot; Software Engineer Intern</span>
+                            <span class="exp-title-dates">Summer 2018</span>
+                        </div>
+                        <div class="exp-desc">
+                         <p>Worked with the <b>Network Infrastructure team</b> in <i>Sunnyvale, CA</i> to <b> to improve network
+                         bandwidth allocation on Google's inter-datacenter
+                         WAN.</b> This work builds upon Google's hierarchal bandwidth allocator, <a href="https://ai.google/research/pubs/pub43838">BwE</a>. It involved developing new bandwidth allocation techniques that leveraged machine learning and real-time control literature; and algorithmic analysis of existing bandwidth allocation techniques.</p>
+                        </div>
+                    </ul>
+
+                    <ul class="list-unstyled exp">
+                        <div class="exp-title">
+                            <span class="exp-title-title"><b>Microsoft</b> &middot; Software Engineer Intern</span>
+                            <span class="exp-title-dates">Summer 2017</span>
+                        </div>
+                        <div class="exp-desc">
+                         <p>Worked with the <b>Azure Data Warehouse team</b> in <i>Aliso Viejo, CA</i> to <b>build a prototype for a distributed query store</b> for <a href="https://azure.microsoft.com/en-us/services/sql-data-warehouse/">Azure SQL Data Warehouse</a>. This enabled more extensive query monitoring and debugging for distributed queries, especially in the case of complex query execution plans spanning many servers.</p>
+                        </div>
+                    </ul>
+                    <ul class="list-unstyled exp">
+                        <div class="exp-title">
+                            <span class="exp-title-title"><b>Parallel Programming Lab</b> &middot; Research Assistant</span>
+                            <span class="exp-title-dates">Jan 2016 - May 2017</span>
+                        </div>
+                        <div class="exp-desc">
+                            <p>Researched techniques for <b>realizing latency-sensitive high performance computing applications in less predictable and higher latency environments,</b> such as commercial clouds. This involved optimizing application communication and minimizing latency introduced by the runtime system through lock-free algorithms. Other work included designing a <b>RDMA-backed message passing interface</b> for CRAY machines, and <b>building parallel object replication techniques for load balancing.</b></p>       
+                        </div>
+                    </ul>
+                    <ul class="list-unstyled exp">
+                        <div class="exp-title">
+                            <span class="exp-title-title"><b>Charmworks</b> &middot; Software Engineer</span>
+                            <span class="exp-title-dates">Nov 2016 - May 2017</span>
+                        </div>
+                        <div class="exp-desc">
+                            <p>Worked to <b>optimize a parallel program runtime system</b> Charm++, a parallel object-oriented programming language, for performance. Additionally, <b>modified parallel algorithms</b> for shared memory parallel applications <b>to operate scalably in a distributed memory context.</b></p>
+                        </div>
+                    </ul>
+                    <ul class="list-unstyled exp">
+                        <div class="exp-title">
+                            <span class="exp-title-title"><b>Google</b> &middot; Software Engineer Intern</span>
+                            <span class="exp-title-dates">Summer 2016</span>
+                        </div>
+                        <div class="exp-desc">
+                            <p>Worked with the <b>Google Compute Engine team</b> to improve cloud network reliability for development clusters through <b>developing network failure detection tools.</b></p>
+                        </div>
+                    </ul> 
+                </div>
+            </div>
+
         </div>
     </div>
     <!-- scripts -->
