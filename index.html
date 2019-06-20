@@ -11,144 +11,34 @@
 
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/shared.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,500,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans+SC:500&display=swap" rel="stylesheet"> 
 </head>
 
  <!-- Navigation -->
 <body>
     <div class="page-wrapper">
-        <div class="sidebar-sidebar col-md-2 col-xs-12 col-sm-12">
-            <div class="sidebar-img">
-                <img class="img-responsive mainpic" src="images/mainpic2.jpg">
+        <div class="page-content col-md-12 page col-xs-12 col-sm-12 ce">
+            <div class="row">
+                <img class="img-responsive mainpic" src="images/penguins.png">
             </div>
-            <div class="sidebar-name">Justin Miron</div>
-            <div class="sidebar-title">Software Engineer</div>
-            <div class="sidebar-uni"></div>
-            <div class="sidebar-location"></div>
-
-            <div class="sidebar-icons row">
-                <a href="mailto:justinmiron11@gmail.com" class="sidebar-icon"><i class="fa fa-envelope fa-2x" aria-hidden="true"></i></a>
+            <div class="spacing"></div>
+            <div class="row">
+               <p class="title">Software Engineer</p>
+            </div>
+            <div class="row seperatehr"></div>
+            <div class="row">
+                <p class="links">About / Work</p>
+           </div>
+           <div class="spacing2"></div>
+           <div class="icons">
+                <a href="mailto:justinmiron@cs.cornell.edu" class="sidebar-icon"><i class="fa fa-envelope fa-2x" aria-hidden="true"></i></a>
                 <a href="https://github.com/jmiron11" class="sidebar-icon"><i class="fa fa-github fa-2x" aria-hidden="true"></i></a>
+                <a href="https://twitter.com/justinmiron11" class="sidebar-icon"><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></a>
                 <a href="https://www.linkedin.com/in/justinmiron/" class="sidebar-icon"><i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i></a>
                 <a href="CV-JustinMiron.pdf" class="sidebar-icon"><i class="fa fa-file-text fa-2x" aria-hidden="true"></i></a>
-            </div>
-        </div>
-        <div class="page-content col-md-10 page col-xs-12 col-sm-12">
-            <div class="row panel">
-                <div class="section-title">
-                    <h2><i class="fa fa-user section-icon" aria-hidden="true"></i>About Me</h2>
-                </div>
-                <p class="aboutme">Hi, I'm Justin.</p>
-            </div>
-            <div class="row panel">
-                <div class="col-md-12 col-xs-12 col-sm-12 half-panel">
-                    <div class="section-title">
-                        <h2><i class="fa fa-briefcase section-icon" aria-hidden="true"></i>Work Experience</h2>
-                    </div>
-		    <ul class="list-unstyled exp">
-                        <div class="exp-title">
-                            <span class="exp-title-title"><b>Google</b> &middot; Software Engineer Intern</span>
-                            <span class="exp-title-dates">Summer 2018</span>
-                        </div>
-                        <div class="exp-desc">
-                         <p>Worked with the <b>Network Infrastructure team</b> in <i>Sunnyvale, CA</i> to <b> to improve network
-                         bandwidth allocation on Google's inter-datacenter
-                         WAN.</b> This work builds upon Google's hierarchal bandwidth allocator, <a href="https://ai.google/research/pubs/pub43838">BwE</a>. It involved developing new bandwidth allocation techniques that leveraged machine learning and real-time control literature; and algorithmic analysis of existing bandwidth allocation techniques.</p>
-                        </div>
-                    </ul>
-
-                    <ul class="list-unstyled exp">
-                        <div class="exp-title">
-                            <span class="exp-title-title"><b>Microsoft</b> &middot; Software Engineer Intern</span>
-                            <span class="exp-title-dates">Summer 2017</span>
-                        </div>
-                        <div class="exp-desc">
-                         <p>Worked with the <b>Azure Data Warehouse team</b> in <i>Aliso Viejo, CA</i> to <b>build a prototype for a distributed query store</b> for <a href="https://azure.microsoft.com/en-us/services/sql-data-warehouse/">Azure SQL Data Warehouse</a>. This enabled more extensive query monitoring and debugging for distributed queries, especially in the case of complex query execution plans spanning many servers.</p>
-                        </div>
-                    </ul>
-                    <ul class="list-unstyled exp">
-                        <div class="exp-title">
-                            <span class="exp-title-title"><b>Parallel Programming Lab</b> &middot; Research Assistant</span>
-                            <span class="exp-title-dates">Jan 2016 - May 2017</span>
-                        </div>
-                        <div class="exp-desc">
-                            <p>Researched techniques for <b>realizing latency-sensitive high performance computing applications in less predictable and higher latency environments,</b> such as commercial clouds. This involved optimizing application communication and minimizing latency introduced by the runtime system through lock-free algorithms. Other work included designing a <b>RDMA-backed message passing interface</b> for CRAY machines, and <b>building parallel object replication techniques for load balancing.</b></p>       
-                        </div>
-                    </ul>
-                    <ul class="list-unstyled exp">
-                        <div class="exp-title">
-                            <span class="exp-title-title"><b>Charmworks</b> &middot; Software Engineer</span>
-                            <span class="exp-title-dates">Nov 2016 - May 2017</span>
-                        </div>
-                        <div class="exp-desc">
-                            <p>Worked to <b>optimize a parallel program runtime system</b> Charm++, a parallel object-oriented programming language, for performance. Additionally, <b>modified parallel algorithms</b> for shared memory parallel applications <b>to operate scalably in a distributed memory context.</b></p>
-                        </div>
-                    </ul>
-                    <ul class="list-unstyled exp">
-                        <div class="exp-title">
-                            <span class="exp-title-title"><b>Google</b> &middot; Software Engineer Intern</span>
-                            <span class="exp-title-dates">Summer 2016</span>
-                        </div>
-                        <div class="exp-desc">
-                            <p>Worked with the <b>Google Compute Engine team</b> to improve cloud network reliability for development clusters through <b>developing network failure detection tools.</b></p>
-                        </div>
-                    </ul>
-                </div>
-            </div>
-            <div class="row panel">
-                <div class="col-md-12 col-xs-12 col-sm-12 half-panel">
-                    <div class="section-title">
-                        <h2><i class="fa fa-graduation-cap section-icon" aria-hidden="true"></i>Teaching Experience</h2>
-                    </div>
-                    <h4 class="teaching-uni">Cornell University</h4>
-                    <ul class="list-unstyled exp">
-                        <div class="teaching-title">
-                            <span class="exp-title-title"><b>CS 4450: Computer Networks</b> &middot; Teaching Assistant</span>
-                            <span class="exp-title-dates">Spring 2018</span>
-                        </div>
-                        <div class="teaching-title">
-                            <span class="exp-title-title"><b>CS 4320: Database Systems</b> &middot; Teaching Assistant</span>
-                            <span class="exp-title-dates">Fall 2017</span>
-                        </div>
-                    </ul>
-                    <h4 class="teaching-uni">University of Illinois at Urbana-Champaign</h4>
-                    <ul class="list-unstyled exp">
-                        <div class="teaching-title">
-                            <span class="exp-title-title"><b>CS 225: Data Structures</b> &middot; Course Assistant</span>
-                            <span class="exp-title-dates">Fall 2016 - Spring 2017</span>
-                        </div>
-                        <div class="teaching-title">
-                            <span class="exp-title-title"><b>ENG 100: Computer Engineering Orientation</b> &middot; Engineering Learning Assistant</span>
-                            <span class="exp-title-dates">Fall 2016</span>
-                        </div>
-                    </ul>
-                </div>
-            </div>
-            <div class="row panel">
-                <div class="section-title">
-                    <h2>Documents and Contact</h2>
-                </div>
-                    <div class="contact">
-                        <div class="contact-single col-md-3">
-                            <span class="contact-icon"><a href="mailto:justinmiron11@gmail.com"><i class="fa fa-envelope fa-4x" aria-hidden="true"></i></a></span><br>
-                            <p class="contact-field">justinmiron11@gmail.com</p>
-                        </div>
-                        <div class="contact-single col-md-3">
-                            <span class="contact-icon"> <a href="https://github.com/jmiron11" class="sidebar-icon"><i class="fa fa-github fa-4x" aria-hidden="true"></i></a></span><br>
-                            <p class="contact-field">jmiron11</p>
-                        </div>
-                        <div class="contact-single col-md-3">
-                            <span class="contact-icon"><a href="https://www.linkedin.com/in/justinmiron/" class="sidebar-icon"><i class="fa fa-linkedin-square fa-4x" aria-hidden="true"></i></a></span><br>
-                            <p class="contact-field">justinmiron</p>
-                        </div>
-                        <div class="contact-single col-md-3">
-                            <span class="contact-icon"> <a href="CV-JustinMiron.pdf" class="sidebar-icon"><i class="fa fa-file-text fa-4x" aria-hidden="true"></i></a></span><br>
-                            <p class="contact-field">Curriculum Vitae</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+           </div>
+        </div> 
+        
     </div>
     <!-- scripts -->
     <script src="js/jquery.js"></script>
@@ -157,9 +47,3 @@
 </body>
 
 </html>
-
-
- <a href="mailto:justinmiron@cs.cornell.edu" class="sidebar-icon"><i class="fa fa-envelope fa-2x" aria-hidden="true"></i></a>
-                <a href="https://github.com/jmiron11" class="sidebar-icon"><i class="fa fa-github fa-2x" aria-hidden="true"></i></a>
-                <a href="https://www.linkedin.com/in/justinmiron/" class="sidebar-icon"><i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i></a>
-                <a href="CV-JustinMiron.pdf" class="sidebar-icon"><i class="fa fa-file-text fa-2x" aria-hidden="true"></i></a>
