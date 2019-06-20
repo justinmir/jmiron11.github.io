@@ -1,21 +1,27 @@
+var now_playing_ep = "http://ec2-34-219-151-22.us-west-2.compute.amazonaws.com:8082/nowplaying"
 
-// // Get the modal
-// var modal = document.getElementById('ruth-nanagrizol-modal');
+function httpGetAsync(theUrl, callback)
+{
+    var xmlHttp = new XMLHttpRequest();
+    xmlHttp.onreadystatechange = function() { 
+        if (xmlHttp.readyState == 4 && xmlHttp.status == 200)
+            callback(JSON.parse(xmlHttp.responseText));
+       	else {
+       		callback("Nothing")
+       	}
+    }
+    xmlHttp.open("GET", theUrl, true); // true for asynchronous 
+    xmlHttp.send(null);
+}
 
-// // Get the image and insert it inside the modal - use its "alt" text as a caption
-// var img = document.getElementById('ruth-nanagrizol-img');
-// var modalImg = document.getElementById("ruth-nanagrizol-img");
-// var captionText = document.getElementById("caption");
-// img.onclick = function(){
-//     modal.style.display = "block";
-//     modalImg.src = this.src;
-//     captionText.innerHTML = this.alt;
-// }
+function update(json_playing_data) {
+	var playing_str = json_playing_data['track'] + " - " + json_playing_data['artist']
+	var ele = document.getElementById('spotify-data')
+	if (json_playing_data['track'] != undefined && ele.innerHTML != playing_str) {
+		ele.innerHTML = playing_str
+	}
+}
 
-// // Get the <span> element that closes the modal
-// var span = document.getElementsByClassName("close")[0];
-
-// // When the user clicks on <span> (x), close the modal
-// span.onclick = function() { 
-//   modal.style.display = "none";
-// }
+setInterval(function() {
+  httpGetAsync(now_playing_ep, update);
+}, 5000);

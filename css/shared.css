@@ -205,6 +205,10 @@ html{
   height:2%;
 }
 
+.spacing3 {
+  height:3%;
+}
+
 .panel{
   background-color: #fff;
   width:95%;
@@ -263,4 +267,22 @@ html{
   padding: 6px;
 }
 
+.spotify {
+  display: flex;
+  align-items: center;
+  justify-content:center;
+  -webkit-flex-direction: row;
+  flex-direction: row;
+  width: 50%;
+}
 
+.spotify-information {
+  font-size:18px;
+  padding: 0 1% 0 0;
+  /*background-color: #000;*/
+}
+
+.spotify-icon{
+  color: #355127;
+  padding: 0px 1% 0 0;
+}
