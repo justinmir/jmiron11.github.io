@@ -8,31 +8,19 @@ body {
 
 html{
   height:100%;
-  position:relative;
 }
 
 .page-content {
-  height: 100%;
-  width: 100%;
-  min-width: 100%;
   display: flex;
   align-items:flex-start;
-  justify-content:center;
   -webkit-flex-direction: column;
   flex-direction: column;
 }
 
-.page-row1 {
+.page-landing {
   height: 100vh;
   width: 100%;
-  min-height:100%;
-}
-
-.page-row2 {
-  height: 100vh;
-  width: 100%;
-  min-height:100%;
-  background: #000000;
+  min-height:100vh;
 }
 
 .page {
@@ -66,6 +54,11 @@ html{
   -webkit-flex-direction: column;
   flex-direction: column;
   padding: 1%
+}
+
+.empty-div {
+  min-height:100%;
+  height:100%;
 }
 
 .about-page-right {
