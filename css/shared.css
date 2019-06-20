@@ -11,10 +11,17 @@ html{
 }
 
 .page-content {
-  display: flex;
+/*  display: flex;
   align-items:flex-start;
   -webkit-flex-direction: column;
-  flex-direction: column;
+  flex-direction: column;*/
+}
+
+.row-eq-height {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display:         flex;
 }
 
 .page-landing {
