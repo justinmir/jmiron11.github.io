@@ -89,6 +89,12 @@ html{
   color: #fff;
 }
 
+.work-history-text {
+  font-size:45px;
+  font-family: 'Alegreya Sans SC', sans-serif;
+  color: #331e36;
+}
+
 .work-history {
   border-style: solid;
   border-width: 0px 0px 0px 0px;
@@ -129,7 +135,7 @@ html{
   justify-content: center;
   -webkit-flex-direction: column;
   flex-direction: column;
-  background-color: #84846b;
+  background-color: #e3e8de;
   height: 100%;
   padding: 2%;
 }
@@ -138,7 +144,6 @@ html{
   margin: 5px;
   height: 60px;
   width: 100%;
-  background-color: #1c2127;
    display: -webkit-flex;
    display: flex;
    -webkit-flex-direction: row;
@@ -151,7 +156,6 @@ html{
 
 
 .experience-panel{
-  background-color:#a1e02c;
   width:100%;
 }
 
@@ -176,20 +180,21 @@ html{
 
 .exp-title-title {
   background: #3c7a89;
-  padding: 4px 6px 4px 6px;
+  padding: 7px 6px 4px 6px;
+  box-shadow: 2px 1px 1px 1px #2e4756;
 }
 
 .exp-title-dates {
   background: #2e4756;
-  padding: 4px 6px 4px 6px;
-  box-shadow: -3px 0px 7px -3px #2e4756;
+  padding: 7px 6px 4px 6px;
+  box-shadow: 2px 1px 1px 1px #2e4756;
   margin: -4px !important;
 }
 
 .exp-desc{
-  background-color: #cdd5d1;
+  background-color: #adb5b1;
   padding: 35px 20px 12px 40px;
-  box-shadow: 0px 3px 3px -3px #2e4756;
+  box-shadow: -2px 6px 6px -6px #2e4756;
   display:block;
   width: 100%;
 }
@@ -256,10 +261,17 @@ html{
   text-align: center;
 }
 
-.links2 {
+.links-light {
   font-size:16px;
   font-family: 'Alegreya Sans SC', sans-serif;
   color:#fff;
+  padding: 10px 0 0 0;
+}
+
+.links-dark {
+  font-size:16px;
+  font-family: 'Alegreya Sans SC', sans-serif;
+  color:#331e36;
   padding: 10px 0 0 0;
 }
 
