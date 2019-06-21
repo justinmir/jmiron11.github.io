@@ -107,7 +107,7 @@ html{
 }
 
 .company-logo{
-  width:6%;
+  width:3%;
   max-height:85%;
   margin: 0% 1% 0% 1%
 }
@@ -124,7 +124,12 @@ html{
 }
 
 .work-page-right {
-  background-color: #47687f;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+  background-color: #84846b;
   height: 100%;
   padding: 2%;
 }
